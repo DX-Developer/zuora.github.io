@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+ul{
+	padding: 0;
+}
+
+
+/*desktop screen*/
+/*header section start*/
+header nav .navbar-brand{
+	color: #fd4b1b !important;
+}
+header nav .navbar-brand span{
+	color: #0a083a;
+}
+header nav .collapse .navbar-nav .nav-item .nav-link{
+	color: #000;
+	font-size: 25px;
+}
+header nav .collapse form .login-btn{
+	font-size: 25px;
+	color: #000;
+	margin-right: 15px;
+}
+header nav .collapse form button{
+	background: #fd4b1b;
+	color: #fff;
+}
+/*header section end*/
+
+
+/*banner section start*/
+.banner{
+	height: 91.5vh;
+	padding-top: 12rem;
+}
+.banner .row .left-side h2{
+	font-size: 80px;
+	color: #fd4b1b;
+}
+.banner .row .left-side h2 span{
+	color: #0a083a;
+}
+.banner .row .left-side .btns h5{
+	margin: 0;
+}
+.banner .row .left-side p{
+	font-size: 25px;
+	color: #7e7ca6;
+}
+.banner .row .left-side .btns button{
+	background: #fd4b1b;
+}
+.banner .row .left-side .btns .play-vid{
+	align-items: center;
+}
+.banner .row .left-side .btns .play-vid svg{
+	height: 35px;
+	fill: #fd4b1b;
+	margin-right: 5px;
+}
+.banner .row .left-side .btns .play-vid h5{
+	color: #fd4b1b !important;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+/*banner section end*/
+
+
+/*sponsor section start*/
+.sponsor{
+	padding-bottom: 5rem;
+}
+.sponsor .sponsor-img img{
+	height: 60px;
+}
+/*sponsor section end*/
+
+/*our community section start*/
+.our-comunity {
+	background: #f2f7fe;
+}
+.our-comunity h6{
+	color: #2596be;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.our-comunity h4{
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 30px;
+}
+.our-comunity .four-box {
+	flex-wrap: wrap;
+}
+.our-comunity .four-box .box{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	width: 46%;
+	margin-right: 45px;
+	margin-bottom: 15px;
+	padding: 20px;
+	text-transform: capitalize;
+}
+.our-comunity .four-box .box .right-sec h5{
+	font-weight: 700;
+}
+.our-comunity .four-box .box .left-logo-sec svg{
+	height: 100px;
+	padding: 25px;
+	background: #4c97fb;
+	border-radius: 15px;
+	fill: #fff;
+}
+.our-comunity .four-box .sec-box  .left-logo-sec svg{
+	background: #fc7177;
+}
+.our-comunity .four-box .third-box  .left-logo-sec svg{
+	background: #ffb133;
+}
+.our-comunity .four-box .fourth-box  .left-logo-sec svg{
+	background: #16b265;
+}
+
+
+.apps .row .right-text-sec button{
+	background: #fd4b1b;
+}
+
+.team-leader .row .col-3 .img-sec img{
+	background: #fbe6e1;
+	padding: 15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.team-leader .row .col-3 .details{
+	background: #f5f3fd;
+	padding: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.team-leader .row .col-3 .details button{
+	background: #fd4b1b;
+	color: #fff;
+}
+
+.client-review .box .mini-box{
+	width: 50%;
+	height: 50%;
+	border: 1px solid #fd4b1b;
+	border-radius: 15px;
+	padding: 25px;
+	box-shadow: 14px 18px 42px 4px rgba(253,75,27,0.45);
+}
+.client-review .box .mini-box .review-sec p{
+	font-size: 25px;
+	line-height: 40px;
+}
+.client-review .box .mini-box .client-details .client-img{
+	height: 50px;
+	width: 50px;
+	margin-right: 15px;
+}
+.client-review .box .mini-box .client-details .client-img img{
+	width: 100%;
+	height: 100%;
+}
+.client-review .box .mini-box .client-details .client-name{
+	text-transform: capitalize;
+}
+.client-review .box .mini-box .client-details .client-name h5{
+	color: #fd4b1b;
+	font-weight: 700;
+}
+.subscribe h6{
+	color: #fd4b1b;
+}
+.subscribe .email-box{
+	position: relative;
+}
+
+.subscribe .email-box button{
+	position: absolute;	
+	right: 28.4em;
+	top: 3px;
+	background: #fd4b1b;
+	color: white;
+}
+.subscribe .email-box input{
+	width: 25rem;
+	height: 3rem;
+	padding: 0 0 0 25px;
+	text-transform: capitalize;
+}
+
+footer .box .mini-box{
+	width: 20%;
+	text-transform: capitalize;
+}
+footer .box .mini-box h4{
+	margin-bottom: 20px;
+}
+footer .box .mini-box ul li{
+	margin-bottom: 7px;
+}
+footer .box .mini-box ul li a{
+	font-size: 20px;
+	color: #7e7ca6;
+}
+footer .box .first-box .social-icon svg{
+	font-size: 70px;
+	border: 1px solid blue;
+	padding: 15px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+footer .box .first-box .social-icon .insta-gram{
+	color: #fd4b1b;
+	border: 1px solid #fd4b1b;
+}
+/*desktop screen end*/
+
+/*laptop screen start*/
+@media screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+	header nav .collapse .navbar-nav .nav-item .nav-link{
+		font-size: 20px;
+	}
+	header nav .collapse form .login-btn{
+		font-size: 20px;
+	}
+	header nav .collapse form button{
+		padding: 8px 30px 8px 30px!important;
+	}
+	.banner{
+		padding-top: 5rem;
+	}
+	.banner .row .left-side h2{
+		font-size: 64px;
+	}
+	.banner .row .left-side p{
+		font-size: 15px;
+	}
+	.banner .row .left-side .btns button{
+		padding: 10px 30px 10px 30px!important;
+		font-size: 1rem !important;
+	}
+	.banner .row .left-side .btns h5{
+		font-size: 20px !important;
+	}
+
+	.sponsor .sponsor-img img{
+		height: 53px;
+	}
+	.our-comunity .four-box .box {
+        width: 45%;
+    }
+    .subscribe .email-box button{
+    	right: 22.7rem;
+    }
+    footer .box .first-box .social-icon svg {
+    	font-size: 55px;
+    }
+}
+/*laptop screen end*/
+
+
+/*mobile screen start*/
+@media screen and (min-device-width: 320px) and (max-device-width: 425px){
+	.banner{
+		height: 30vh;
+		padding-top: 5rem;
+	}
+	.banner .row .col-6{
+		width: 100%;
+	}
+	.banner .row .img-sec{
+		display: none;
+	}
+	.sponsor .sponsor-img img {
+        margin-bottom: 25px;
+    }
+    .our-comunity .four-box .box{
+    	width: 100%;
+    }
+    .subscribe .email-box button{
+    	right: 9.7rem;
+    }
+    footer .box .first-box .social-icon svg{
+    	font-size: 30px;
+    	padding: 0;
+    	border: 0;
+    }
+}
+/*mobile screen end*/
+
+
+/*tablet screen start*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	.banner{
+		padding-top: 5rem;
+		height: 50vh;
+	}
+	.banner .row .left-side h2 {
+        font-size: 60px;
+    }
+    .banner .row .left-side .btns{
+    	display: block;
+    }
+    .banner .row .left-side .btns button{
+    	margin-bottom: 15px;
+    }
+    .sponsor .sponsor-img img {
+        margin-bottom: 15px;
+    }
+    .our-comunity .four-box .box{
+    	width: 100%;
+    }
+    .subscribe .email-box button{
+    	right: 9.6rem;
+    }
+    footer .box .first-box .social-icon svg{
+    	border: none;
+    	padding: 0;
+    	font-size: 30px;
+    }
+}
+/*tablet screene end*/
